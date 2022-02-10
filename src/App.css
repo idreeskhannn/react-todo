@@ -1,5 +1,16 @@
 .App {
   text-align: center;
+  width: 50%;
+  /* border: 1px solid black; */
+  margin: 20px auto;
+}
+.App input{
+  width: 60%;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid greenyellow;
+  outline: none;
+  font-size: large;
 }
 
 .App-logo {
@@ -35,4 +46,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+.bt button{
+  justify-content: space-between;
+  
+}
+button{
+  width: 70px;
+  height: 30px;
+  border: none;
+  background-color: rgb(196, 245, 245);
+  margin: 10px;
+  color: rgb(50, 50, 241);
+  font-weight: bold;
+  border-radius: 10px;
 }
